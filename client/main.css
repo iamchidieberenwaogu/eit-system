@@ -36,6 +36,17 @@ table th, table td{
     text-shadow: 0px 0px 2px rgb(78, 132, 0)!important;
 }
 
+#sp_content_2 {
+  height: 430px!important;
+  width: 100%!important;
+  margin: 0px!important;
+  padding: 5px 0px 0px!important;
+  background-color: rgb(235, 233, 225)!important;
+  background-image: url(http://nwaoguandnwaogu.webs.com/use.jpg)!important;
+  background-repeat: no-repeat!important;
+  background-position: center top!important;
+}
+
 .widthtwo  {
   background-color: #ffffff!important;
   height: 37px!important;
