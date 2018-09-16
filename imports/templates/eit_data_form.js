@@ -22,18 +22,18 @@ Template.Eit_data_form.helpers({
 
   countries(){
     return [
+      {name:'Nigeria',default:true},
+      {name:'Ghana'},
       {name:'Kenya'},
-      {name:'Nigeria'},
-      {name:'Ghana',default:true},
-      {name:'Ivory Coast'},
       {name:'South Africa'},
+      {name:'Ivory Coast'},
       {name:'Tanzania'},
-      {name:'Mali'},
       {name:'Zimbabwe'},
+      {name:'Mali'},
       {name:'Cameroon'},
       {name:'Sudan'},
-      {name:'Somalia'},
       {name:'Gambia'}
+      {name:'Somalia'},
     ];
   }
 });
