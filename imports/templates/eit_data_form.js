@@ -32,7 +32,7 @@ Template.Eit_data_form.helpers({
       {name:'Mali'},
       {name:'Cameroon'},
       {name:'Sudan'},
-      {name:'Gambia'}
+      {name:'Gambia'},
       {name:'Somalia'},
     ];
   }
