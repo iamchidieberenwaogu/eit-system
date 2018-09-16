@@ -1,0 +1,39 @@
+<template name="Eit_data_form">
+  <form id="eit_data_form">
+    <input type="hidden" name="id" />
+    <input class='widthtwo' type="text" name="first_name" placeholder="First name" required />
+    <br/>
+    <input class='widthtwo' type="text" name="last_name" placeholder="Last name" required/>
+    <br/>
+    <input class='widthtwo' type="date" name="date_of_birth" required/>
+    <br/>
+    <select class='widthtwo' name="gender" required>
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+  </select><br/>
+    <select class='widthtwo' name="country" required>
+      {{#each countries}}
+        {{#if default}}
+          <option value="{{name}}" selected="true">{{name}}</option>
+        {{else}}
+          <option value="{{name}}">{{name}}</option>
+        {{/if}}
+      {{/each}}
+    </select>
+    <br/>
+    <select class='widthtwo' name="cohort" required>
+      {{ #each cohorts }}
+      {{ #if current}}
+      <option value="{{year}}" selected="true">{{year}}</option>
+      {{ else }}
+      <option value="{{year}}">{{year}}</option>
+      {{ /if }}
+      {{ /each }}
+    </select>
+    <br/>
+    <div>
+      <i>All fields are required</i>
+    </div>
+    <button class='submittwo' >Submit</button>
+  </form>
+</template>

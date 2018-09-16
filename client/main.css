@@ -1,0 +1,69 @@
+body {
+  margin: 0px!important;
+}
+
+#eit_data_form {
+  width: 730px!important;
+    margin: 0px auto!important;
+    padding-top: 10px;
+    min-height:430px;
+}
+table th, table td{
+  padding: 10px;
+}
+.submittwo {
+    height: 45px!important;
+    width: 200px!important;
+    padding-top: 5px!important;
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+    padding-bottom: 10px!important;
+    margin-top: 10px!important;
+    margin-left: 2px!important;
+    text-align: center!important;
+    font-weight: normal!important;
+    border-radius: 5px 5px 5px 5px!important;
+    color: rgb(255, 255, 255)!important;
+    text-decoration: none!important;
+    cursor: pointer!important;
+    float: left!important;
+    background-color: rgb(145, 204, 0)!important;
+    background-position: 0px -482px!important;
+    font-size: 20px!important;
+    line-height: 28px!important;
+    border: medium none rgb(145, 204, 0)!important;
+    white-space: nowrap!important;
+    text-shadow: 0px 0px 2px rgb(78, 132, 0)!important;
+}
+
+.widthtwo  {
+  background-color: #ffffff!important;
+  height: 37px!important;
+  width: 200px!important;
+  border-radius: 5px 5px 5px 5px!important;
+  font-size: 20px!important;
+  margin-left: 2px!important;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#menu_2 {
+  width: 100%!important;
+  box-shadow: 0px 0px 20px rgb(0, 0, 0)!important;
+  height: 40px!important;
+  margin: auto!important;
+  padding: 0px!important;
+  background-image: url(http://nwaoguandnwaogu.webs.com/tagworldbg.jpg)!important;
+  background-repeat: repeat-x!important;
+  background-position: left top!important;
+}
+
+#menuCenter_2 {
+  position: relative!important;
+    width: 716px!important;
+    height: 40px!important;
+    margin: 0px auto!important;
+    padding: 7px 17px 0px 0px!important;
+    color: #fff;
+    font-size: 20px!important;
+}

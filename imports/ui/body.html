@@ -1,0 +1,43 @@
+<head>
+  <title>EIT System</title>
+</head>
+<body>
+  <div id="menu_2"><div id="menuCenter_2">EIT Management System</div></div>
+
+  {{> Eit_data_form}}
+  <hr/>
+  <div>
+    <button id="deleteEit" style="float:right;">Delete</button>
+    <br/>
+    <table>
+      <thead>
+        <th></th>
+        <th>Full names</th>
+        <th>Gender</th>
+        <th>Date of Birth</th>
+        <th>Country</th>
+        <th>Cohort</th>
+        <th></th>
+      </thead>
+      <tbody>
+        {{ #each eits }}
+        <tr>
+          <td>
+            <input type="checkbox" class="delete-checkbox" value="{{_id}}"/>
+          </td>
+          <td> {{ first_name }} {{last_name}}</td>
+          <td> {{ gender }} </td>
+          <td> {{ date_of_birth }} </td>
+          <td> {{ country }} </td>
+          <td> {{cohort}} </td>
+          <td>
+            <button class="update-eit" id="{{_id}}">
+              Update
+            </button>
+          </td>
+        </tr>
+        {{ /each }}
+      </tbody>
+    </table>
+  </div>
+</body>
