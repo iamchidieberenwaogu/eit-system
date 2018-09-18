@@ -72,7 +72,9 @@ tr:nth-child(even) {
   background-repeat: no-repeat!important;
   background-position: center top!important;
 }
-
+#login-buttons {
+  margin-left: 50px;
+}
 .widthtwo  {
   background-color: #ffffff!important;
   height: 37px!important;

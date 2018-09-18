@@ -53,6 +53,7 @@ Template.Eit_data_form.events({
     var id = form.id.value;
     if(id){
       Meteor.call('eits.update',id,data);
+      document.getElementById("submitter").innerHTML = "ADD RECORD";
     }else{
       Meteor.call('eits.insert',data);
     }

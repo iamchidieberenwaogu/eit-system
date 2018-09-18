@@ -31,6 +31,7 @@ Template.body.events({
     form.country.value = eit.country;
     form.gender.value = eit.gender;
     form.cohort.value = eit.cohort;
+    document.getElementById("submitter").innerHTML = "UPDATE";
   },
 
   'click .delete-checkbox'(event){

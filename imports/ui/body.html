@@ -2,7 +2,8 @@
   <title>EIT System</title>
 </head>
 <body>
-  <div id="menu_2"><div id="menuCenter_2">MEST Entrepreneurs-in-Training Database<img src="http://event.innovationprizeforafrica.org/img/mest.png" width="150" style="float:right;"/></div></div>
+  <div id="menu_2"><div id="menuCenter_2">MEST Entrepreneurs-in-Training Database {{> loginButtons}}
+      <img src="http://event.innovationprizeforafrica.org/img/mest.png" width="150" style="float:right;"/></div></div>
   
   {{> Eit_data_form}}
   
@@ -18,7 +19,9 @@
         <th>Gender</th>
         <th>Country</th>
         <th>Class</th>
+        {{#if currentUser}}
         <th><button id="deleteEit">Delete</button></th>
+        {{/if}}
       </thead>
       <tbody>
         {{ #each eits }}
@@ -32,11 +35,13 @@
           <td> {{ gender }} </td>
           <td> {{ country }} </td>
           <td> {{cohort}} </td>
+          {{#if currentUser}}
           <td>
             <button class="update-eit" id="{{_id}}">
               Edit
             </button>
           </td>
+          {{/if}}
         </tr>
         {{ /each }}
       </tbody>

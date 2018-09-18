@@ -1,4 +1,5 @@
 <template name="Eit_data_form">
+    {{#if currentUser}}
     <div id="sp_content_2">
   <form id="eit_data_form">
     <input type="hidden" name="id" />
@@ -29,7 +30,8 @@
       {{ /each }}
     </select>
     <br/>
-    <button class='submittwo' >ADD RECORD</button>
+    <button id="submitter" class='submittwo' >ADD RECORD</button>
   </form>
   </div>
+  {{/if}}
 </template>
